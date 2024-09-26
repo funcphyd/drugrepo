@@ -1,11 +1,14 @@
 package com.example.myapp7;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.SeekBar;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,7 +21,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class SideEffectsActivity extends AppCompatActivity {
+public class SideEffectsActivity extends BaseActivity {
 
     private TableLayout tableLayout;
     private TextView tableHeading;
@@ -39,12 +42,11 @@ public class SideEffectsActivity extends AppCompatActivity {
         // Set the heading to include the fruit name
         tableHeading.setText("Side Effects for the Drug: "+drugName);
 
-        ArrayList<String> seList = loadJsonData(drugName);
+        // Load the selected locale from SharedPreferences
+        SharedPreferences sharedPreferences = getSharedPreferences("LocalePrefs", MODE_PRIVATE);
+        String selectedLocale = sharedPreferences.getString("selected_locale", "en"); // Default to English
 
-        // Example additional drug details (you can replace or expand with real data)
-        String[] drugAttributes = {"SideEffect Name", "SideEffect Description", "link"};
-        String[] drugValues = {drugName, drugDescription, "Link"};
-
+        ArrayList<String> seList = loadJsonData(drugName, selectedLocale);
         seList.forEach(e-> addRow(e,"lnk1"));
     }
 
@@ -59,7 +61,6 @@ public class SideEffectsActivity extends AppCompatActivity {
         attributeTextView.setPadding(8, 8, 8, 8);
         attributeTextView.setGravity(android.view.Gravity.START);
         attributeTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f));
-
         // Apply the border to the attribute TextView
         attributeTextView.setBackgroundResource(R.drawable.border);
 
@@ -69,13 +70,48 @@ public class SideEffectsActivity extends AppCompatActivity {
         valueTextView.setPadding(8, 8, 8, 8);
         valueTextView.setGravity(android.view.Gravity.START);
         valueTextView.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f));
-
         // Apply the border to the value TextView
         valueTextView.setBackgroundResource(R.drawable.border);
 
+
         // Add the TextViews to the TableRow
         tableRow.addView(attributeTextView);
-        tableRow.addView(valueTextView);
+
+        // Add SeekBar for rows that require a rating scale (e.g., for "Sweetness")
+        if ("lnk1".equals(value)) {
+            // Create a SeekBar for the row (scale of 1-5)
+            SeekBar seekBar = new SeekBar(this);
+            seekBar.setMax(4); // Max is 4 because the range is 0-4, but we display it as 1-5
+            seekBar.setProgress(2); // Default to middle value (3)
+
+            // Set layout params to ensure it fits in the row
+            seekBar.setLayoutParams(new TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f));
+
+            // Add listener to the SeekBar
+            seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+                @Override
+                public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                    // Show the rating as 1-5 (progress + 1)
+                    Toast.makeText(SideEffectsActivity.this, "Sweetness: " + (progress + 1), Toast.LENGTH_SHORT).show();
+                }
+
+                @Override
+                public void onStartTrackingTouch(SeekBar seekBar) {
+                    // Optional: You can handle events when the user starts interacting with the SeekBar
+                }
+
+                @Override
+                public void onStopTrackingTouch(SeekBar seekBar) {
+                    // Optional: Handle event when the user stops moving the SeekBar
+                }
+            });
+
+            // Add the SeekBar to the TableRow
+            tableRow.addView(seekBar);
+        } else {
+            // For rows without SeekBar, just add the value TextView
+            tableRow.addView(valueTextView);
+        }
 
         // Add click listener to the TableRow
         tableRow.setOnClickListener(new View.OnClickListener() {
@@ -97,12 +133,19 @@ public class SideEffectsActivity extends AppCompatActivity {
         tableLayout.addView(tableRow);
     }
 
-    private ArrayList<String> loadJsonData(String drugName) {
+    private ArrayList<String> loadJsonData(String drugName, String locale) {
         // Implement your JSON loading logic here
         ArrayList<String> data = new ArrayList<>();
         try {
-            System.out.println("In the load method");
-            BufferedReader reader = new BufferedReader(new InputStreamReader(getAssets().open("drugmodel.json")));
+
+            String filename = "";
+            if("en".equalsIgnoreCase(locale)) {
+                filename = "drugmodel.json";
+            } else {
+                filename = "drugmodel-"+locale+".json";
+            }
+            System.out.println("filename loaded for the data is::" + filename);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(getAssets().open(filename)));
             JsonObject rootjsonObject = JsonParser.parseReader(reader)
                                                     .getAsJsonObject();
             JsonArray drugarray = rootjsonObject.getAsJsonArray("drugs");

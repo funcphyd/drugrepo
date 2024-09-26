@@ -5,7 +5,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class RemediesActivity extends AppCompatActivity {
+public class RemediesActivity extends BaseActivity {
 
     private TextView attributeTextView, valueTextView;
 

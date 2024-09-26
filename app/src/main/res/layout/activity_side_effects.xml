@@ -10,42 +10,21 @@
         android:id="@+id/table_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Drug Details"
+        android:text="@string/enter_drug_name"
         android:textSize="24sp"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_gravity="center"
         android:paddingBottom="16dp" />
 
+    <!-- TableLayout for fruit details -->
     <TableLayout
         android:id="@+id/table_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:stretchColumns="1"> <!-- Stretch second column to fill space -->
+        android:stretchColumns="1"> <!-- Stretch the second column to fill space -->
 
-        <!-- Table header row -->
-        <TableRow>
-            <!-- Fixed width for the attribute column -->
-            <TextView
-                android:text="Side Effect"
-                android:textStyle="bold"
-                android:gravity="start"
-                android:padding="8dp"
-                android:background="@drawable/border"
-                android:layout_width="380dp"
-                android:layout_height="wrap_content" />
-
-            <!-- Weighted width for the value column (fills remaining space) -->
-            <TextView
-                android:text="Details"
-                android:textStyle="bold"
-                android:gravity="start"
-                android:padding="8dp"
-                android:background="@drawable/border"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content" />
-        </TableRow>
+        <!-- Your table rows will be added programmatically in Java -->
 
     </TableLayout>
 

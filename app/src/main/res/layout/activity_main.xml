@@ -10,7 +10,7 @@
         android:id="@+id/search_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Enter the cancer drug name"
+        android:text="@string/enter_drug_name"
         android:textSize="38sp"
         app:layout_constraintBottom_toTopOf="@+id/search_view"
         app:layout_constraintEnd_toEndOf="parent"

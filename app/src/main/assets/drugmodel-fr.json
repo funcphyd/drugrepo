@@ -1,0 +1,144 @@
+{
+  "drugs": [
+    {
+      "drugid": 1,
+      "drugname": "Perjeta",
+      "sideeffects": [
+        {
+          "sid": "s1.1",
+          "sname": "Vertiges",
+          "Remedies": [
+            {
+              "rid": "r1.1.1",
+              "rname": "neuropathy1",
+              "rdescription": "Il n’existe pas de traitement clair contre la neuropathie qui améliorerait les lésions nerveuses, mais une combinaison d’analgésiques, de vitamines, de lotions et d’exercice peut vous aider à gérer les symptômes."
+            },
+            {
+              "rid": "r1.1.2",
+              "rname": "neuropathy2",
+              "rdescription": "La physiothérapie est l’un des traitements les plus efficaces contre la neuropathie : elle peut aider à améliorer l’équilibre, la force et la sécurité. L’ergothérapie peut également être bénéfique et aider les patients à améliorer leur motricité fine, comme boutonner une chemise. Dans les deux cas, il est très important que les patients se défendent en demandant à leur médecin ou à leur équipe soignante de les orienter vers un physiothérapeute et/ou un ergothérapeute."
+            },
+            {
+              "rid": "r1.1.3",
+              "rname": "neuropathy3",
+              "rdescription": "Les exercices à faible impact sont les meilleurs, comme la natation et le vélo. Pour la neuropathie des jambes et/ou des pieds, les patients doivent essayer des étirements des mollets, des cercles de cheville, une marche douce, des levées de jambes et des exercices d'équilibre."
+            }
+          ]
+        },
+        {
+          "sid": "s1.2",
+          "sname": "Fatigue"
+        },
+        {
+          "sid": "s1.3",
+          "sname": "Douleur intense"
+        }
+      ]
+    },
+    {
+      "drugid": 2,
+      "drugname": "Anastrozole",
+      "sideeffects": [
+        {
+          "sid": "s1.1",
+          "sname": "Vertiges",
+          "Remedies": [
+            {
+              "rid": "r1.1.1",
+              "rname": "neuropathy1",
+              "rdescription": "Il n’existe pas de traitement clair contre la neuropathie qui améliorerait les lésions nerveuses, mais une combinaison d’analgésiques, de vitamines, de lotions et d’exercice peut vous aider à gérer les symptômes."
+            },
+            {
+              "rid": "r1.1.2",
+              "rname": "neuropathy2",
+              "rdescription": "La physiothérapie est l’un des traitements les plus efficaces contre la neuropathie : elle peut aider à améliorer l’équilibre, la force et la sécurité. L’ergothérapie peut également être bénéfique et aider les patients à améliorer leur motricité fine, comme boutonner une chemise. Dans les deux cas, il est très important que les patients se défendent en demandant à leur médecin ou à leur équipe soignante de les orienter vers un physiothérapeute et/ou un ergothérapeute."
+            },
+            {
+              "rid": "r1.1.3",
+              "rname": "neuropathy3",
+              "rdescription": "Les exercices à faible impact sont les meilleurs, comme la natation et le vélo. Pour la neuropathie des jambes et/ou des pieds, les patients doivent essayer des étirements des mollets, des cercles de cheville, une marche douce, des levées de jambes et des exercices d'équilibre."
+            }
+          ]
+        },
+        {
+          "sid": "s1.2",
+          "sname": "Fatigue"
+        },
+        {
+          "sid": "s1.3",
+          "sname": "Douleur intense"
+        }
+      ]
+    },
+    {
+      "drugid": 3,
+      "drugname": "Tamoxifen",
+      "sideeffects": [
+        {
+          "sid": "s1.1",
+          "sname": "Vertiges",
+          "Remedies": [
+            {
+              "rid": "r1.1.1",
+              "rname": "neuropathy1",
+              "rdescription": "Il n’existe pas de traitement clair contre la neuropathie qui améliorerait les lésions nerveuses, mais une combinaison d’analgésiques, de vitamines, de lotions et d’exercice peut vous aider à gérer les symptômes."
+            },
+            {
+              "rid": "r1.1.2",
+              "rname": "neuropathy2",
+              "rdescription": "La physiothérapie est l’un des traitements les plus efficaces contre la neuropathie : elle peut aider à améliorer l’équilibre, la force et la sécurité. L’ergothérapie peut également être bénéfique et aider les patients à améliorer leur motricité fine, comme boutonner une chemise. Dans les deux cas, il est très important que les patients se défendent en demandant à leur médecin ou à leur équipe soignante de les orienter vers un physiothérapeute et/ou un ergothérapeute."
+            },
+            {
+              "rid": "r1.1.3",
+              "rname": "neuropathy3",
+              "rdescription": "Les exercices à faible impact sont les meilleurs, comme la natation et le vélo. Pour la neuropathie des jambes et/ou des pieds, les patients doivent essayer des étirements des mollets, des cercles de cheville, une marche douce, des levées de jambes et des exercices d'équilibre."
+            }
+          ]
+        },
+        {
+          "sid": "s1.2",
+          "sname": "Fatigue"
+        },
+        {
+          "sid": "s1.3",
+          "sname": "Douleur intense"
+        }
+      ]
+    },
+    {
+      "drugid": 4,
+      "drugname": "Exemestane",
+      "sideeffects": [
+        {
+          "sid": "s1.1",
+          "sname": "Vertiges",
+          "Remedies": [
+            {
+              "rid": "r1.1.1",
+              "rname": "neuropathy1",
+              "rdescription": "Il n’existe pas de traitement clair contre la neuropathie qui améliorerait les lésions nerveuses, mais une combinaison d’analgésiques, de vitamines, de lotions et d’exercice peut vous aider à gérer les symptômes."
+            },
+            {
+              "rid": "r1.1.2",
+              "rname": "neuropathy2",
+              "rdescription": "La physiothérapie est l’un des traitements les plus efficaces contre la neuropathie : elle peut aider à améliorer l’équilibre, la force et la sécurité. L’ergothérapie peut également être bénéfique et aider les patients à améliorer leur motricité fine, comme boutonner une chemise. Dans les deux cas, il est très important que les patients se défendent en demandant à leur médecin ou à leur équipe soignante de les orienter vers un physiothérapeute et/ou un ergothérapeute."
+            },
+            {
+              "rid": "r1.1.3",
+              "rname": "neuropathy3",
+              "rdescription": "Les exercices à faible impact sont les meilleurs, comme la natation et le vélo. Pour la neuropathie des jambes et/ou des pieds, les patients doivent essayer des étirements des mollets, des cercles de cheville, une marche douce, des levées de jambes et des exercices d'équilibre."
+            }
+          ]
+        },
+        {
+          "sid": "s1.2",
+          "sname": "Fatigue"
+        },
+        {
+          "sid": "s1.3",
+          "sname": "Douleur intense"
+        }
+      ]
+    }
+  ]
+}
