@@ -10,52 +10,26 @@
           "Remedies": [
             {
               "rid": "r1.1.1",
+              "severity": "1",
               "rname": "neuropathy1",
               "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
             },
             {
               "rid": "r1.1.2",
+              "severity": "2",
               "rname": "neuropathy2",
               "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
             },
             {
               "rid": "r1.1.3",
+              "severity": "3",
               "rname": "neuropathy3",
               "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
-            }
-          ]
-        },
-        {
-          "sid": "s1.2",
-          "sname": "Fatigue"
-        },
-        {
-          "sid": "s1.3",
-          "sname": "Severe Pain"
-        }
-      ]
-    },
-    {
-      "drugid": 2,
-      "drugname": "Anastrozole",
-      "sideeffects": [
-        {
-          "sid": "s1.1",
-          "sname": "Dizziness",
-          "Remedies": [
-            {
-              "rid": "r1.1.1",
-              "rname": "neuropathy1",
-              "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
             },
             {
-              "rid": "r1.1.2",
-              "rname": "neuropathy2",
-              "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
-            },
-            {
-              "rid": "r1.1.3",
-              "rname": "neuropathy3",
+              "rid": "r1.1.4",
+              "severity": "4",
+              "rname": "neuropathy4",
               "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
@@ -63,70 +37,156 @@
         {
           "sid": "s1.2",
           "sname": "Fatigue",
-          "sideeffects": [
+          "Remedies": [
             {
-              "sid": "s1.1",
-              "sname": "Dizziness",
-              "Remedies": [
-                {
-                  "rid": "r1.1.1",
-                  "rname": "neuropathy1",
-                  "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
-                },
-                {
-                  "rid": "r1.1.2",
-                  "rname": "neuropathy2",
-                  "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
-                },
-                {
-                  "rid": "r1.1.3",
-                  "rname": "neuropathy3",
-                  "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
-                }
-              ]
+              "rid": "r1.2.1",
+              "severity": "1",
+              "rname": "neuropathy1",
+              "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
             },
             {
-              "sid": "s1.2",
-              "sname": "Fatigue"
+              "rid": "r1.2.2",
+              "severity": "2",
+              "rname": "neuropathy2",
+              "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
             },
             {
-              "sid": "s1.3",
-              "sname": "Severe Pain"
+              "rid": "r1.2.3",
+              "severity": "3",
+              "rname": "neuropathy3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r1.2.4",
+              "severity": "4",
+              "rname": "neuropathy4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
         },
         {
           "sid": "s1.3",
           "sname": "Severe Pain",
-          "sideeffects": [
+          "Remedies": [
             {
-              "sid": "s1.1",
-              "sname": "Dizziness",
-              "Remedies": [
-                {
-                  "rid": "r1.1.1",
-                  "rname": "neuropathy1",
-                  "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
-                },
-                {
-                  "rid": "r1.1.2",
-                  "rname": "neuropathy2",
-                  "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
-                },
-                {
-                  "rid": "r1.1.3",
-                  "rname": "neuropathy3",
-                  "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
-                }
-              ]
+              "rid": "r1.3.1",
+              "severity": "1",
+              "rname": "neuropathy1",
+              "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
             },
             {
-              "sid": "s1.2",
-              "sname": "Fatigue"
+              "rid": "r1.3.2",
+              "severity": "2",
+              "rname": "neuropathy2",
+              "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
             },
             {
-              "sid": "s1.3",
-              "sname": "Severe Pain"
+              "rid": "r1.3.3",
+              "severity": "3",
+              "rname": "neuropathy3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r1.3.4",
+              "severity": "4",
+              "rname": "neuropathy4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "drugid": 2,
+      "drugname": "Alpelisib",
+      "sideeffects": [
+        {
+          "sid": "s2.1",
+          "sname": "Dizziness",
+          "Remedies": [
+            {
+              "rid": "r2.1.1",
+              "severity": "1",
+              "rname": "neuropathy1",
+              "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
+            },
+            {
+              "rid": "r2.1.2",
+              "severity": "2",
+              "rname": "neuropathy2",
+              "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
+            },
+            {
+              "rid": "r2.1.3",
+              "severity": "3",
+              "rname": "neuropathy3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r2.1.4",
+              "severity": "4",
+              "rname": "neuropathy4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
+        },
+        {
+          "sid": "s2.2",
+          "sname": "Fatigue",
+          "Remedies": [
+            {
+              "rid": "r2.2.1",
+              "severity": "1",
+              "rname": "neuropathy1",
+              "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
+            },
+            {
+              "rid": "r2.2.2",
+              "severity": "2",
+              "rname": "neuropathy2",
+              "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
+            },
+            {
+              "rid": "r2.2.3",
+              "severity": "3",
+              "rname": "neuropathy3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r2.2.4",
+              "severity": "4",
+              "rname": "neuropathy4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
+        },
+        {
+          "sid": "s2.3",
+          "sname": "Severe Pain",
+          "Remedies": [
+            {
+              "rid": "r2.3.1",
+              "severity": "1",
+              "rname": "neuropathy1",
+              "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
+            },
+            {
+              "rid": "r2.3.2",
+              "severity": "2",
+              "rname": "neuropathy2",
+              "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
+            },
+            {
+              "rid": "r2.3.3",
+              "severity": "3",
+              "rname": "neuropathy3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r2.3.4",
+              "severity": "4",
+              "rname": "neuropathy4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
         }
@@ -134,71 +194,97 @@
     },
     {
       "drugid": 3,
-      "drugname": "Tamoxifen",
+      "drugname": "Capivasertib",
       "sideeffects": [
         {
-          "sid": "s1.1",
+          "sid": "s3.1",
           "sname": "Dizziness",
           "Remedies": [
             {
-              "rid": "r1.1.1",
+              "rid": "r3.1.1",
+              "severity": "1",
               "rname": "neuropathy1",
               "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
             },
             {
-              "rid": "r1.1.2",
+              "rid": "r3.1.2",
+              "severity": "2",
               "rname": "neuropathy2",
               "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
             },
             {
-              "rid": "r1.1.3",
+              "rid": "r3.1.3",
+              "severity": "3",
               "rname": "neuropathy3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r3.1.4",
+              "severity": "4",
+              "rname": "neuropathy4",
               "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
         },
         {
-          "sid": "s1.2",
-          "sname": "Fatigue"
-        },
-        {
-          "sid": "s1.3",
-          "sname": "Severe Pain"
-        }
-      ]
-    },
-    {
-      "drugid": 4,
-      "drugname": "Exemestane",
-      "sideeffects": [
-        {
-          "sid": "s1.1",
-          "sname": "Dizziness",
+          "sid": "s3.2",
+          "sname": "Fatigue",
           "Remedies": [
             {
-              "rid": "r1.1.1",
+              "rid": "r3.2.1",
+              "severity": "1",
               "rname": "neuropathy1",
               "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
             },
             {
-              "rid": "r1.1.2",
+              "rid": "r3.2.2",
+              "severity": "2",
               "rname": "neuropathy2",
               "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
             },
             {
-              "rid": "r1.1.3",
+              "rid": "r3.2.3",
+              "severity": "3",
               "rname": "neuropathy3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r3.2.4",
+              "severity": "4",
+              "rname": "neuropathy4",
               "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
         },
         {
-          "sid": "s1.2",
-          "sname": "Fatigue"
-        },
-        {
-          "sid": "s1.3",
-          "sname": "Severe Pain"
+          "sid": "s3.3",
+          "sname": "Severe Pain",
+          "Remedies": [
+            {
+              "rid": "r3.3.1",
+              "severity": "1",
+              "rname": "neuropathy1",
+              "rdescription": "There is no clear treatment for neuropathy that will improve nerve damage, but a combination of pain medications, vitamins, lotions and exercise can help you manage symptoms"
+            },
+            {
+              "rid": "r3.3.2",
+              "severity": "2",
+              "rname": "neuropathy2",
+              "rdescription": "Physical therapy is one of the most effective treatments for neuropathy — it can help with balance, strength and safety. Occupational therapy can also be beneficial and can help patients improve fine motor skills like buttoning shirts. In both cases, it is very important for patients to advocate for themselves by asking their doctor or care team for a referral to a physical and/or occupational therapist"
+            },
+            {
+              "rid": "r3.3.3",
+              "severity": "3",
+              "rname": "neuropathy3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r3.3.4",
+              "severity": "4",
+              "rname": "neuropathy4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
         }
       ]
     }

@@ -11,6 +11,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
@@ -31,6 +32,14 @@ public class SideEffectsActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_side_effects);
 
+        // Set up the toolbar
+        Toolbar toolbar = findViewById(R.id.s_toolbar);
+        setSupportActionBar(toolbar);
+
+        // Load the selected locale from SharedPreferences
+        SharedPreferences sharedPreferences = getSharedPreferences("LocalePrefs", MODE_PRIVATE);
+        String selectedLocale = sharedPreferences.getString("selected_locale", "en"); // Default to English
+
         // Find the heading TextView
         tableHeading = findViewById(R.id.table_heading);
         tableLayout = findViewById(R.id.table_layout);
@@ -38,13 +47,6 @@ public class SideEffectsActivity extends BaseActivity {
         // Get the drug details passed from the MainActivity
         String drugName = getIntent().getStringExtra("drug_name");
         String drugDescription = getIntent().getStringExtra("drug_description");
-
-        // Set the heading to include the fruit name
-        tableHeading.setText("Side Effects for the Drug: "+drugName);
-
-        // Load the selected locale from SharedPreferences
-        SharedPreferences sharedPreferences = getSharedPreferences("LocalePrefs", MODE_PRIVATE);
-        String selectedLocale = sharedPreferences.getString("selected_locale", "en"); // Default to English
 
         ArrayList<String> seList = loadJsonData(drugName, selectedLocale);
         seList.forEach(e-> addRow(e,"lnk1"));
@@ -73,11 +75,10 @@ public class SideEffectsActivity extends BaseActivity {
         // Apply the border to the value TextView
         valueTextView.setBackgroundResource(R.drawable.border);
 
-
         // Add the TextViews to the TableRow
         tableRow.addView(attributeTextView);
 
-        // Add SeekBar for rows that require a rating scale (e.g., for "Sweetness")
+        // Add SeekBar for rows that require a rating scale for the side effect
         if ("lnk1".equals(value)) {
             // Create a SeekBar for the row (scale of 1-5)
             SeekBar seekBar = new SeekBar(this);
@@ -92,7 +93,7 @@ public class SideEffectsActivity extends BaseActivity {
                 @Override
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                     // Show the rating as 1-5 (progress + 1)
-                    Toast.makeText(SideEffectsActivity.this, "Sweetness: " + (progress + 1), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(SideEffectsActivity.this, "Scale: " + (progress + 1), Toast.LENGTH_SHORT).show();
                 }
 
                 @Override

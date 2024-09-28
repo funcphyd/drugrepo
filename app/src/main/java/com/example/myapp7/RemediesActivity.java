@@ -23,7 +23,7 @@ public class RemediesActivity extends BaseActivity {
         String value = getIntent().getStringExtra("value");
 
         // Set the text for the TextViews
-        attributeTextView.setText("Below of are the Remedies for the sideeffect: " + attribute);
+        //attributeTextView.setText("Below of are the Remedies for the sideeffect: " + attribute);
         valueTextView.setText("Rememdy: " + value);
     }
 }

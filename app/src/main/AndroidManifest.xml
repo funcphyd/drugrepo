@@ -24,7 +24,7 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".SideEffectsActivity" />
         <activity android:name=".RemediesActivity"/>
-
+        <activity android:name=".SettingsActivity" />
     </application>
 
 </manifest>

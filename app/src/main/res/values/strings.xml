@@ -2,4 +2,7 @@
     <string name="app_name">myapp7</string>
     <string name="enter_drug_name">Enter the drug name</string>
     <string name="select_locale">Select a Locale</string>
+    <string name="side_effect_heading">Side Effects for the drug: </string>
+    <string name="remedy_heading">Remedies for the sideeffects</string>
+    <string name="settings">Settings</string>
 </resources>

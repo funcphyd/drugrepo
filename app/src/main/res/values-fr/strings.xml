@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">myapp7-fr</string>
     <string name="enter_drug_name">entrez le nom du médicament</string>
+    <string name="side_effect_heading">Effets secondaires du médicament</string>
+    <string name="remedy_heading">Remèdes contre les effets secondaires</string>
+    <string name="settings">Settings</string>
 </resources>

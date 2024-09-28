@@ -10,6 +10,7 @@
         android:id="@+id/attribute_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/remedy_heading"
         android:textSize="18sp"
         android:textStyle="bold"
         android:paddingBottom="8dp" />

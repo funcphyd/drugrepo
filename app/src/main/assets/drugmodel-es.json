@@ -10,28 +10,89 @@
           "Remedies": [
             {
               "rid": "r1.1.1",
+              "severity": "1",
               "rname": "neuropatía-1",
               "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
             },
             {
               "rid": "r1.1.2",
+              "severity": "2",
               "rname": "neuropatía-2",
               "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
             },
             {
               "rid": "r1.1.3",
+              "severity": "3",
               "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r1.1.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
               "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
         },
         {
           "sid": "s1.2",
-          "sname": "Fatigo"
+          "sname": "Fatigo",
+          "Remedies": [
+            {
+              "rid": "r1.2.1",
+              "severity": "1",
+              "rname": "neuropatía-1",
+              "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
+            },
+            {
+              "rid": "r1.2.2",
+              "severity": "2",
+              "rname": "neuropatía-2",
+              "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
+            },
+            {
+              "rid": "r1.2.3",
+              "severity": "3",
+              "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r1.2.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
         },
         {
           "sid": "s1.3",
-          "sname": "Dolor severo"
+          "sname": "Dolor Severe",
+          "Remedies": [
+            {
+              "rid": "r1.3.1",
+              "severity": "1",
+              "rname": "neuropatía-1",
+              "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
+            },
+            {
+              "rid": "r1.3.2",
+              "severity": "2",
+              "rname": "neuropatía-2",
+              "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
+            },
+            {
+              "rid": "r1.3.3",
+              "severity": "3",
+              "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r1.3.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
         }
       ]
     },
@@ -40,103 +101,190 @@
       "drugname": "Anastrozole",
       "sideeffects": [
         {
-          "sid": "s1.1",
+          "sid": "s2.1",
           "sname": "Mareo",
           "Remedies": [
             {
-              "rid": "r1.1.1",
+              "rid": "r2.1.1",
+              "severity": "1",
               "rname": "neuropatía-1",
               "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
             },
             {
-              "rid": "r1.1.2",
+              "rid": "r2.1.2",
+              "severity": "2",
               "rname": "neuropatía-2",
               "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
             },
             {
-              "rid": "r1.1.3",
+              "rid": "r2.1.3",
+              "severity": "3",
               "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r2.1.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
               "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
         },
         {
-          "sid": "s1.2",
-          "sname": "fatiga"
+          "sid": "s2.2",
+          "sname": "Fatigo",
+          "Remedies": [
+            {
+              "rid": "r2.2.1",
+              "severity": "1",
+              "rname": "neuropatía-1",
+              "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
+            },
+            {
+              "rid": "r2.2.2",
+              "severity": "2",
+              "rname": "neuropatía-2",
+              "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
+            },
+            {
+              "rid": "r2.2.3",
+              "severity": "3",
+              "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r2.2.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
         },
         {
-          "sid": "s1.3",
-          "sname": "Dolor severo"
+          "sid": "s2.3",
+          "sname": "Dolor Severe",
+          "Remedies": [
+            {
+              "rid": "r2.3.1",
+              "severity": "1",
+              "rname": "neuropatía-1",
+              "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
+            },
+            {
+              "rid": "r2.3.2",
+              "severity": "2",
+              "rname": "neuropatía-2",
+              "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
+            },
+            {
+              "rid": "r2.3.3",
+              "severity": "3",
+              "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r2.3.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
         }
       ]
     },
     {
-      "drugid": 3,
-      "drugname": "Tamoxifen",
+      "drugid": 2,
+      "drugname": "Tamoxifan",
       "sideeffects": [
         {
-          "sid": "s1.1",
+          "sid": "s3.1",
           "sname": "Mareo",
           "Remedies": [
             {
-              "rid": "r1.1.1",
+              "rid": "r3.1.1",
+              "severity": "1",
               "rname": "neuropatía-1",
               "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
             },
             {
-              "rid": "r1.1.2",
+              "rid": "r3.1.2",
+              "severity": "2",
               "rname": "neuropatía-2",
               "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
             },
             {
-              "rid": "r1.1.3",
+              "rid": "r3.1.3",
+              "severity": "3",
               "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r3.1.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
               "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
         },
         {
-          "sid": "s1.2",
-          "sname": "Fatiga"
-        },
-        {
-          "sid": "s1.3",
-          "sname": "Dolor severo"
-        }
-      ]
-    },
-    {
-      "drugid": 4,
-      "drugname": "Exemestane",
-      "sideeffects": [
-        {
-          "sid": "s1.1",
-          "sname": "Mareo",
+          "sid": "s3.2",
+          "sname": "Fatigo",
           "Remedies": [
             {
-              "rid": "r1.1.1",
+              "rid": "r3.2.1",
+              "severity": "1",
               "rname": "neuropatía-1",
               "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
             },
             {
-              "rid": "r1.1.2",
+              "rid": "r3.2.2",
+              "severity": "2",
               "rname": "neuropatía-2",
               "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
             },
             {
-              "rid": "r1.1.3",
+              "rid": "r3.2.3",
+              "severity": "3",
               "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r3.2.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
               "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
             }
           ]
         },
         {
-          "sid": "s1.2",
-          "sname": "Fatiga"
-        },
-        {
-          "sid": "s1.3",
-          "sname": "Dolor severo"
+          "sid": "s2.3",
+          "sname": "Dolor Severe",
+          "Remedies": [
+            {
+              "rid": "r2.3.1",
+              "severity": "1",
+              "rname": "neuropatía-1",
+              "rdescription": "No existe un tratamiento claro para la neuropatía que mejore el daño a los nervios, pero una combinación de analgésicos, vitaminas, lociones y ejercicio puede ayudarle a controlar los síntomas."
+            },
+            {
+              "rid": "r2.3.2",
+              "severity": "2",
+              "rname": "neuropatía-2",
+              "rdescription": "La fisioterapia es uno de los tratamientos más eficaces para la neuropatía: puede ayudar con el equilibrio, la fuerza y \u200B\u200Bla seguridad. La terapia ocupacional también puede ser beneficiosa y ayudar a los pacientes a mejorar sus habilidades motoras finas, como abotonarse las camisas. En ambos casos, es muy importante que los pacientes se defiendan a sí mismos solicitando a su médico o equipo de atención una derivación a un fisioterapeuta y/o terapeuta ocupacional."
+            },
+            {
+              "rid": "r2.3.3",
+              "severity": "3",
+              "rname": "neuropatía-3",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            },
+            {
+              "rid": "r2.3.4",
+              "severity": "4",
+              "rname": "neuropatía-4",
+              "rdescription": "Low-impact exercises are best; swimming and biking are two examples. For leg and/or foot neuropathy, patients should try calf stretches, ankle circles, gentle walking, leg lifts, and balancing exercises"
+            }
+          ]
         }
       ]
     }

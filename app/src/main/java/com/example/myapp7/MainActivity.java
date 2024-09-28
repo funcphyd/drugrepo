@@ -3,11 +3,13 @@ package com.example.myapp7;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.MenuInflater;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.SearchView;
 import java.util.Locale;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -34,6 +36,10 @@ public class MainActivity extends BaseActivity {
         String selectedLocale = sharedPreferences.getString("selected_locale", "en"); // Default to English
 
         setContentView(R.layout.activity_main);
+
+        // Set up the toolbar
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         listView = findViewById(R.id.list_view);
         searchView = findViewById(R.id.search_view);
