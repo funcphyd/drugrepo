@@ -2,7 +2,7 @@
   "drugs": [
     {
       "drugid": 1,
-      "drugname": "Perjeta",
+      "drugname": "పెర్జెటా",
       "sideeffects": [
         {
           "sid": "s1.1",
@@ -98,7 +98,7 @@
     },
     {
       "drugid": 2,
-      "drugname": "Anastrozole",
+      "drugname": "అనస్ట్రోజోల్",
       "sideeffects": [
         {
           "sid": "s2.1",
@@ -194,7 +194,7 @@
     },
     {
       "drugid": 2,
-      "drugname": "Tamoxifan",
+      "drugname": "టామోక్సిఫెన్",
       "sideeffects": [
         {
           "sid": "s3.1",

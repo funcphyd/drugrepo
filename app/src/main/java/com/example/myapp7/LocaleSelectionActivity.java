@@ -12,7 +12,7 @@ import java.util.Locale;
 
 public class LocaleSelectionActivity extends AppCompatActivity {
 
-    private Button englishButton, spanishButton, frenchButton;
+    private Button englishButton, spanishButton, frenchButton, teluguButton;
     private SharedPreferences sharedPreferences;
 
     @Override
@@ -25,6 +25,7 @@ public class LocaleSelectionActivity extends AppCompatActivity {
         englishButton = findViewById(R.id.english_button);
         spanishButton = findViewById(R.id.spanish_button);
         frenchButton = findViewById(R.id.french_button);
+        teluguButton = findViewById(R.id.telugu_button);
 
         englishButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,6 +45,13 @@ public class LocaleSelectionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 setLocale("fr");
+            }
+        });
+
+        teluguButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setLocale("te");
             }
         });
     }

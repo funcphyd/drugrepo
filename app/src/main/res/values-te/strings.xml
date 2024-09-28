@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myapp7-te</string>
+    <string name="enter_drug_name">ఔషధం పేరును నమోదు చేయండి</string>
+    <string name="side_effect_heading">ఔషధం సైడ్ ఎఫెక్ట్స్</string>
+    <string name="remedy_heading">దుష్ప్రభావాలకు నివారణలు</string>
+    <string name="settings">Settings</string>
+</resources>
