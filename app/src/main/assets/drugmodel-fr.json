@@ -2,65 +2,65 @@
   "drugs": [
     {
       "drugid": 1,
-      "drugname": "Carboplatin",
+      "drugname": "Carboplatine",
       "sideeffects": [
         {
           "sid": "s1.1",
-          "sname": "Infection, especially when white blood cell count is low",
+          "sname": "Infection, surtout lorsque le nombre de globules blancs est faible",
           "Remedies": [
             {
               "rid": "r1.1.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s1.2",
-          "sname": "Bruising, bleeding",
+          "sname": "Des ecchymoses, des saignements",
           "Remedies": [
             {
               "rid": "r2.2.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s1.3",
-          "sname": "Anemia which may cause tiredness, or may require blood transfusions",
+          "sname": "Anémie pouvant entraîner de la fatigue ou nécessiter des transfusions sanguines",
           "Remedies": [
             {
               "rid": "r2.3.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s1.4",
-          "sname": "Vomiting, nausea",
+          "sname": "Vomissements, nausées",
           "Remedies": [
             {
               "rid": "r2.3.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s1.5",
-          "sname": "Hair loss",
+          "sname": "Perte de cheveux",
           "Remedies": [
             {
               "rid": "r2.3.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         }
@@ -68,41 +68,41 @@
     },
     {
       "drugid": 2,
-      "drugname": "Doxorubicin",
+      "drugname": "Doxorubicine",
       "sideeffects": [
         {
           "sid": "s2.1",
-          "sname": "Nausea, vomiting",
+          "sname": "Nausées, vomissements",
           "Remedies": [
             {
               "rid": "r2.1.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s2.2",
-          "sname": "Red colored urine, saliva, or sweat",
+          "sname": "Urine, salive ou sueur de couleur rouge",
           "Remedies": [
             {
               "rid": "r2.2.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s2.3",
-          "sname": "Hair loss",
+          "sname": "Perte de cheveux",
           "Remedies": [
             {
               "rid": "r2.3.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         }
@@ -114,145 +114,145 @@
       "sideeffects": [
         {
           "sid": "s3.1",
-          "sname": "Swelling of arms, legs, and body",
+          "sname": "Gonflement des bras, des jambes et du corps",
           "Remedies": [
             {
               "rid": "r3.1.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.2",
-          "sname": "Shortness of breath",
+          "sname": "Essoufflement",
           "Remedies": [
             {
               "rid": "r3.2.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.3",
-          "sname": "Infection, including in the blood, especially when white blood cell count is low",
+          "sname": "Infection, y compris dans le sang, en particulier lorsque le nombre de globules blancs est faible",
           "Remedies": [
             {
               "rid": "r3.3.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.4",
-          "sname": "Bruising, bleeding",
+          "sname": "Des ecchymoses, des saignements",
           "Remedies": [
             {
               "rid": "r3.4.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.5",
-          "sname": "Anemia which may cause tiredness, or may require a blood transfusion",
+          "sname": "Anémie pouvant entraîner de la fatigue ou nécessiter une transfusion sanguine",
           "Remedies": [
             {
               "rid": "r3.5.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.6",
-          "sname": "Blood in urine",
+          "sname": "Sang dans les urines",
           "Remedies": [
             {
               "rid": "r3.6.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.7",
-          "sname": "Sores in mouth which may cause difficulty swallowing",
+          "sname": "Plaies dans la bouche pouvant entraîner des difficultés à avaler",
           "Remedies": [
             {
               "rid": "r3.7.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.8",
-          "sname": "Nausea, vomiting, diarrhea, constipation",
+          "sname": "Nausées, vomissements, diarrhée, constipation",
           "Remedies": [
             {
               "rid": "r3.8.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.9",
-          "sname": "Flu-like symptoms of muscle pain, fever, headache, chills and fatigue",
+          "sname": "Symptômes pseudo-grippaux tels que douleurs musculaires, fièvre, maux de tête, frissons et fatigue",
           "Remedies": [
             {
               "rid": "r3.9.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.10",
-          "sname": "Burning, numbness, tingling or pins and needles feelings",
+          "sname": "Sensation de brûlure, d’engourdissement, de picotement ou de picotements",
           "Remedies": [
             {
               "rid": "r3.10.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.11",
-          "sname": "Rash, itching",
+          "sname": "Éruption cutanée, démangeaisons",
           "Remedies": [
             {
               "rid": "r3.11.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s3.12",
-          "sname": "Hair loss",
+          "sname": "Perte de cheveux",
           "Remedies": [
             {
               "rid": "r3.12.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         }
@@ -264,133 +264,133 @@
       "sideeffects": [
         {
           "sid": "s4.1",
-          "sname": "Allergic reaction which may cause rash, low blood pressure, wheezing, shortness of breath, swelling of the face or throat",
+          "sname": "Réaction allergique pouvant provoquer une éruption cutanée, une hypotension artérielle, une respiration sifflante, un essoufflement, un gonflement du visage ou de la gorge.",
           "Remedies": [
             {
               "rid": "r4.1.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.2",
-          "sname": "Infection, especially when white blood cell count is low",
+          "sname": "Infection, surtout lorsque le nombre de globules blancs est faible",
           "Remedies": [
             {
               "rid": "r4.2.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.3",
-          "sname": "Bruising, bleeding",
+          "sname": "Des ecchymoses, des saignements",
           "Remedies": [
             {
               "rid": "r4.3.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.4",
-          "sname": "·  Anemia which may cause tiredness, or may require blood transfusions",
+          "sname": "·  Anémie pouvant entraîner de la fatigue ou nécessiter des transfusions sanguines",
           "Remedies": [
             {
               "rid": "r4.4.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.5",
-          "sname": "·  Sores in mouth which may cause difficulty swallowing",
+          "sname": "·  Plaies dans la bouche pouvant entraîner des difficultés à avaler",
           "Remedies": [
             {
               "rid": "r4.5.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.6",
-          "sname": "·  Diarrhea, nausea, vomiting",
+          "sname": "·  Diarrhée, nausées, vomissements",
           "Remedies": [
             {
               "rid": "r4.6.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.7",
-          "sname": "Pain",
+          "sname": "Douleur",
           "Remedies": [
             {
               "rid": "r4.7.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.8",
-          "sname": "·  Muscle weakness",
+          "sname": "·  Faiblesse musculaire",
           "Remedies": [
             {
               "rid": "r4.8.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.9",
-          "sname": "·  Numbness, tingling or pain of the arms and legs",
+          "sname": "·  Engourdissements, picotements ou douleurs dans les bras et les jambes",
           "Remedies": [
             {
               "rid": "r4.9.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.10",
-          "sname": "Flushing",
+          "sname": "Rinçage",
           "Remedies": [
             {
               "rid": "r4.10.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s4.11",
-          "sname": "Hair Loss",
+          "sname": "Perte de cheveux",
           "Remedies": [
             {
               "rid": "r4.11.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         }
@@ -398,77 +398,77 @@
     },
     {
       "drugid": 5,
-      "drugname": "Tamoxifen",
+      "drugname": "Tamoxifène",
       "sideeffects": [
         {
           "sid": "s5.1",
-          "sname": "Swelling",
+          "sname": "Gonflement",
           "Remedies": [
             {
               "rid": "r5.1.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s5.2",
-          "sname": "Nausea",
+          "sname": "Nausée",
           "Remedies": [
             {
               "rid": "r5.2.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s5.3",
-          "sname": "Abnormal or absence of menstrual period",
+          "sname": "Anormal ou absence de règles",
           "Remedies": [
             {
               "rid": "r5.3.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s5.4",
-          "sname": "Vaginal discharge, vaginal bleeding ",
+          "sname": "Pertes vaginales, saignements vaginaux ",
           "Remedies": [
             {
               "rid": "r5.4.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
           "sid": "s5.5",
-          "sname": "Flushing, including hot flashes",
+          "sname": "Bouffées de chaleur, y compris les bouffées de chaleur",
           "Remedies": [
             {
               "rid": "r5.5.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         },
         {
-          "sid": "s5.6",
-          "sname": "Changes in weight",
+          "sid": "art.5.6",
+          "sname": "Changements de poids",
           "Remedies": [
             {
               "rid": "r5.6.1",
               "severity": "1",
-              "rname": "neuropathy1",
-              "rdescription": "Symptomatic treatment for milder symptoms. Please consult your doctor immediately for further management. This information is only for education purposes and should not be construed as a medical advise. More medication and languages will be addedd in future. The goal is to provide easy accessible information to patients across the globe in their own languages. Additionally, patients will be able to record the severity and save time stamped data to monitor changes and review at time of clinic visit with the physician. Source: https://www.cancerresearchuk.org/about-cancer/treatment/drugs; https://ctep.cancer.gov/protocolDevelopment/sideeffects/drugs.htm"
+              "rname": "neuropathie1",
+              "rdescription": "Traitement symptomatique pour les symptômes plus légers. "
             }
           ]
         }
